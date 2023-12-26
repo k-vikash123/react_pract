@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header{
+    background-color: rgba(97, 97, 196,0.3);
+}
+#img1{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 4px 10px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    font-size: x-large;
+    position: relative;
+    left: 70%;
+    top: -50px;
+}
+#restaurant{
+    width: 200px;
+    height: 340px;
+    margin: 30px 20px;
+    border: 1px solid black;
+    /* text-wrap: wrap; */
+    /* word-wrap :; */
+}
+
+.restro-logo{
+    width: 200px;
+    height: 50%;
+}
+#body{
+    display: flex;
+    flex-wrap: wrap;
+}

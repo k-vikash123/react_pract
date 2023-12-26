@@ -4,6 +4,8 @@
   "description": "react_code",
   "main": "index.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "build index.html",
     "test": "jest"
   },
   "repository": {
@@ -17,6 +19,9 @@
   "author": "vikash kumar",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "parcel": "^2.10.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
