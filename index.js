@@ -1,8 +1,8 @@
 
 import React from "react";
 import ReactDom from "react-dom/client";
-import logo from "./logo.jpg";
-
+import logo from "./logo.jpg"
+ 
 
 const Header = () => {
   return <div id="header">
@@ -15,7 +15,6 @@ const Header = () => {
     </ul>
   </div>
 }
-
 const restList = [{
   "id": "296855",
   "name": "Thalairaj Biryani",
@@ -352,6 +351,7 @@ const Restcard = (props) => {
    <p>{totalFee}</p>
   </div>
 }
+
 const Body = () => {
   return <div id="body">
   {restList.map((x) => {
@@ -360,12 +360,15 @@ const Body = () => {
   </div>
 }
 
+
 const AppLayout = () => {
   return <div id="layout">
    <Header/>
    <Body/>
   </div> 
 }
+
+
 const root = ReactDom.createRoot(document.getElementById("root"));
 
 root.render(<AppLayout/>);
