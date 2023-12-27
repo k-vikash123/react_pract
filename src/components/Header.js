@@ -1,5 +1,5 @@
 
-import logo from "./logo.jpg";
+import logo from "../../logo.jpg";
 
 const Header = () => {
     return <div id="header">

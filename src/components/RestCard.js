@@ -1,4 +1,6 @@
 
+
+
 const Restcard = (props) => {
     const {resData} = props;
     const {cloudinaryImageId,name,cuisines,avgRating,deliveryTime,totalFee} = resData;
