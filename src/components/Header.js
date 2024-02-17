@@ -29,7 +29,7 @@ const Header = () => {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/cart">Cart-({cartItems.length}Items)</Link></li>
-        <button id="logbtn" onClick={changeLogin} value={loginKey}>{loginKey}</button>
+        {/* <button id="logbtn" onClick={changeLogin} value={loginKey}>{loginKey}</button> */}
         <li><Link to="/contact">Contact Us</Link></li>
       </ul>
     </div>
