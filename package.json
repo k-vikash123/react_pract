@@ -2,7 +2,6 @@
   "name": "react_pract",
   "version": "1.0.0",
   "description": "react_code",
-  "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "build index.html",

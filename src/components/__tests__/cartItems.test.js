@@ -36,3 +36,4 @@ it("should check whther item in cart got updated or not",async() => {
     const cart = screen.getByText("Cart-(1Items)");
     expect(cart).toBeInTheDocument();
 })
+
