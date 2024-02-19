@@ -1,7 +1,7 @@
 
 import Restcard from "./RestCard";
 import { useState, useEffect } from "react";
-import Shimmer from "./shimmer";
+import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useResData from "../utils/useResData";
 
