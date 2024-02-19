@@ -4,7 +4,7 @@
   "description": "react_code",
   "scripts": {
     "start": "parcel index.html",
-    "build": "build index.html",
+    "build": "parcel build index.html",
     "test": "jest",
     "watch-test":"jest --watch"
   },
